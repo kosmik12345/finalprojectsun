@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "User should be able to login to the application",
+        "description": "",
+        "id": "login-feature-file;user-should-be-able-to-login-to-the-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14995948800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is in login page",
+            "match": {
+              "location": "login.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369953600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters email id prashanthi.skvl@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prashanthi.skvl@gmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "login.user_enters_email_id(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125233300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters password Test@123455",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@123455",
+                  "offset": 21
+                }
+              ],
+              "location": "login.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1713345100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks the signin button",
+            "match": {
+              "location": "login.user_clicks_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45151100,
+              "error_message": "java.lang.AssertionError: The following asserts failed:\n\texpected [Invalid email or] but found [Invalid email or password.]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)\r\n\tat fortrainingsetpdefinitions.login.User_should_be_able_to_see_the_error_message(login.java:75)\r\n\tat ✽.Then User should be able to see the error message(feature/log.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be able to see the error message",
+            "match": {
+              "location": "login.User_should_be_able_to_see_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature file",
+    "description": "",
+    "id": "login-feature-file",
+    "keyword": "Feature",
+    "uri": "feature/log.feature"
+  }
+]

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing Regression" >
+
+	
+	<test name="functionalTest">
+	
+	
+	
+		<classes>
+					<class name="runnerfile.runner"></class>
+		           
+					
+			
+			</classes>
+			
+		
+	</test>
+	
+	
+	
+	
+	
+</suite>
